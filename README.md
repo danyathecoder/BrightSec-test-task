@@ -19,7 +19,7 @@ Run this command inside project folder before ruinning installation:
 1. You can modify passwords and content inside ```.env```
 2. Run shell script to
    ```sh
-   sudo wp_install.sh
+   sudo ./wp_install.sh
    ```
 3. WordPress is now available at [http://localhost:8080]( http://localhost:8080)
 
@@ -29,7 +29,7 @@ Run this command inside project folder before ruinning installation:
 
 Run shell script to remove all docker containers and volumes
 ```sh
-   sudo wp_uninstall.sh
+   sudo ./wp_uninstall.sh
 ```
 ### Wordpress installation
 
